@@ -37,9 +37,9 @@ if st.button("Generate"):
 
         # Load Template
         if content_type == "Poster":
-            template_path = "templates/poster1.png"
+            template_path = "templates/pro_poster.png"
         else:
-            template_path = "templates/meme1.jpg"
+            template_path = "templates/pro_meme.jpg"
 
         if not os.path.exists(template_path):
             st.error("Template image not found!")
